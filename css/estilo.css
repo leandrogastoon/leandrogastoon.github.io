@@ -38,11 +38,44 @@ header{
     margin-left: 14%;
 }
 
-.iconos{
-    color: rgb(194, 191, 191);
-    cursor: pointer;
+.fa-chevron-up{
+    position: absolute;
+    z-index: 3;
+    transition: .2s linear all;
+    text-align: center;
+    color: white;
 }
 
-.iconos:hover{
+.iconos2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: auto;
+    color: rgb(194, 191, 191);
+    cursor: pointer;
+    transition: .2s linear all;
+}
+
+.iconos2:hover .fa-chevron-up{
     color: rgb(131, 204, 21);
+    transform: translateY(-30px);
+}
+
+.iconos2:hover{
+    color: rgb(131, 204, 21);
+}
+
+.iconos{
+    position: relative;
+    z-index: 4;
+    background-color: white;
+}
+
+.conteiner-datos{
+    text-align: center;
+}
+
+.correo, .nacimiento, .ubicacion, .telefono, .password{
+    display: none;
 }
