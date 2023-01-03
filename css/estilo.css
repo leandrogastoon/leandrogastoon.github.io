@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -78,4 +79,10 @@ header{
 
 .correo, .nacimiento, .ubicacion, .telefono, .password{
     display: none;
+}
+
+.datoGrande{
+    color: rgb(0, 0, 158);
+    font-weight:400;
+    font-size: 32px;
 }
