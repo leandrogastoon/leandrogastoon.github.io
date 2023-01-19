@@ -12,8 +12,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F9F8F8;
-    border-bottom: 1px solid rgb(158, 158, 158);
+    background-color: #2f3042;
+    border-bottom: 3px solid rgb(158, 158, 158);
 }
 
 .img{
@@ -25,9 +25,9 @@ header{
     transform:translateY(50%);
 }
 
-.info-iconos{
-    width: 100%;
-    height: 100px;
+.img:hover{
+    background-color:rgb(131, 204, 21);
+    cursor: pointer;
 }
 
 .container-iconos{
@@ -36,7 +36,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 14%;
+    margin-left: 12%;
 }
 
 .fa-chevron-up{
@@ -65,6 +65,7 @@ header{
 
 .iconos2:hover{
     color: rgb(131, 204, 21);
+    border-bottom: 2px solid rgb(131, 204, 21);
 }
 
 .iconos{
